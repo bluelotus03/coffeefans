@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<head>
+
+    <!-- This is some metadata! It allows us to specify useful things such as keywords and your website's description -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+    <meta name="keywords" content="❕ Put your keywords here, eg: MLH, Coding, Wesbite">
+    <meta name="description" content="❕ Type a description about your website here! A couple of sentences is fine :D">
+    <meta name="author" content="❕ Type your name here">
+    
+    <!-- This is your page's title! It's what is shown on Google and in the tab at the top of the screen -->
+    <title>❕ Put your website's name here</title>
+    
+    <!-- CSS is how we style our website! We're including a Boostrap CSS file, as well as one you can edit -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./assets/css/styles.css" rel="stylesheet"> <!-- You can edit this file and include your own styles -->
+
+</head>
+
+<!-- Anything you put in your body is visible on your website -->
+<body>
+
+    <!-- This is your navbar. It shows links at the top of the page. -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">❕ Your website's name</a>
+         
+            <!-- This is some Bootstrap magic. It automatically minimizes your navbar on mobile-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">❕ Link 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/">❕ Link 2</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- This is a container! It automatically pushes your content in from the sides! -->
+    <div class="container">
+        <h1>This is an example website!</h1>
+
+        <!-- This is an example 2 column layout! It's responsive too! -->
+        <div class="row">
+            <div class="col-12 col-lg-8">
+                
+                <!-- Here's an example carousell! It displays multiple images and you can include your own! -->
+                <!-- Make sure the photos are the same dimensions to help the carousell behave well -->
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <!-- ❕ You should swap these to be your own images -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./assets/images/Code.jpg" class="d-block w-100" alt="❕ Enter alt text here for accessibility">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/images/Code2.jpg" class="d-block w-100" alt="❕ Enter alt text here for accessibility">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/images/Wksp.jpg" class="d-block w-100" alt="❕ Enter alt text here for accessibility">
+                      </div>
+                    </div>
+                  </div>
+
+                <!-- These are placeholder paragraphs -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet, metus nec mollis convallis, 
+                    erat nulla gravida eros, vel pretium purus ipsum ut lorem. Nullam bibendum euismod mi in ultrices. Etiam aliquet justo eu ultrices egestas. 
+                    Praesent vel aliquam est. Praesent interdum id libero vitae tempor. Duis eu odio sit amet tortor luctus volutpat. Nulla facilisi. Phasellus 
+                    placerat suscipit orci, ac auctor tellus eleifend id. Fusce non sollicitudin lectus, porttitor auctor tortor. Donec ornare accumsan odio, eget 
+                    vulputate nisl convallis sed. Cras facilisis cursus sollicitudin. Pellentesque ipsum eros, ullamcorper non libero at, tincidunt aliquet velit. 
+                    Sed vel commodo risus. Donec hendrerit arcu in diam blandit congue. Mauris ac leo ante. Aliquam mi elit, pretium et odio in, tincidunt tempor est.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc imperdiet, metus nec mollis convallis, 
+                    erat nulla gravida eros, vel pretium purus ipsum ut lorem. Nullam bibendum euismod mi in ultrices. Etiam aliquet justo eu ultrices egestas. 
+                    Praesent vel aliquam est. Praesent interdum id libero vitae tempor. Duis eu odio sit amet tortor luctus volutpat. Nulla facilisi. Phasellus 
+                    placerat suscipit orci, ac auctor tellus eleifend id. Fusce non sollicitudin lectus, porttitor auctor tortor. Donec ornare accumsan odio, eget 
+                    vulputate nisl convallis sed. Cras facilisis cursus sollicitudin. Pellentesque ipsum eros, ullamcorper non libero at, tincidunt aliquet velit. 
+                    Sed vel commodo risus. Donec hendrerit arcu in diam blandit congue. Mauris ac leo ante. Aliquam mi elit, pretium et odio in, tincidunt tempor est.</p>
+                
+                </div>
+            <div class="col-12 col-lg-4">
+
+                 <!-- This is an example card. You can include one for you and your teammates -->
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/images/woman.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">❕ You can include some info about who you are in your sidebar. Here we are just putting a stock image. </p>
+                    </div>
+                </div>   
+                <br />
+                <!-- You might want to include some links in your sidebar too -->
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="https://hackp.ac">MLH</li>
+                    <li class="list-group-item"><a href="https://init.mlh.io">Check out INIT</li>
+                    <li class="list-group-item"><a href="https://github.com/lil-p3tri3/mlh-bootstrap-starter-kit">Visit the GitHub repo</li>
+                  </ul>
+            </div> 
+        </div>
+    </div>
+
+    <!-- This is Bootstrap's JavaScript! Including it is what makes our website's interactive stuff work! -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- You might want to include your own scripts too. We've included an example file with one in here-->
+    <script src="./assets/js/scripts.js"></script>
+
+</body>
