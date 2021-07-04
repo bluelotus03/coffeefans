@@ -9,3 +9,9 @@ blank line under the carousel. */
 .carousel {
     margin-bottom: 1em;
 }
+
+footer {
+  font-size: 10pt;
+  text-align: center;
+  margin: 5%;
+}
