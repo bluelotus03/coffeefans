@@ -6,6 +6,22 @@ so you can use that without typing it in here. */
 
 /* This is an example custom CSS! It adds a 
 blank line under the carousel. */
+/* nav {
+  position: fixed;
+}
+
+main {
+  padding-top: 10%;
+} */
+
+nav, a {
+  font-size: 20px;
+}
+
+body {
+  background-color: rgb(223, 221, 219);
+}
+
 .carousel {
     margin-bottom: 1em;
 }
@@ -14,4 +30,38 @@ footer {
   font-size: 10pt;
   text-align: center;
   margin: 5%;
+}
+/* 
+footer, a {
+   font-size: 10pt;
+} */
+
+.bottom {
+  margin-top: 5%;
+}
+
+.text-mid {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(58, 36, 8);
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgb(38, 122, 72);
+}
+
+.center {
+  margin: auto;
+}
+
+.green {
+  background-color: rgb(38, 122, 72);
+}
+
+.image1 {
+  width: 100px;
 }
